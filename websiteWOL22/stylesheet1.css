@@ -1,0 +1,253 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  margin-left:20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.top-wrapper {
+  padding-top: 170px;
+  padding-bottom: 120px;
+  color : white;
+  background-image: url(images/progatebackground.png);
+  background-size: cover;
+  text-align: center
+
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing :5px;
+  margin-bottom:10px;
+}
+
+.heading {
+  padding-bottom: 50px;
+  color:yellow;
+}
+
+
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px
+  }
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+.html {
+  background-color: #E03404;
+}
+
+.javascript{
+  background-color: #B1E004;
+  margin-right: 10px;
+}
+
+.python {
+  background-color: #072DB5;
+}
+
+
+
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+.btn-wrapper p {
+  margin-top:10px ;
+  margin-bottom: 10px;
+}
+
+
+.button {
+   
+  padding-top:30px;
+  font-size: 26px;
+  color:black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px
+}
+
+
+.button:hover {
+  opacity: 1;
+}
+
+
+.movingtext {
+  color: white ;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  font-size: 24px;
+}
+
+
+.query p {
+
+   font-size: 20px;
+   color:white;
+   padding-bottom: 10px;
+}
+
+
+.textarea {  
+ width: 400px;    
+ size: 50px;        
+ margin-top: 10px;            
+ margin-bottom: 30px;            
+ padding: 20px;            
+ font-size: 18px;            
+ border: 1px solid #dee7ec; }
+
+
+
+.footer {
+  background-color:#84838A;
+  color: #fff;
+  height: 80px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 50px;
+  color:#FAE1F8;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.movingtext2 {
+  color: red;
+  font-size: 24px
+}
+
+
+.popup {
+
+width:100%;
+height:100%;
+background-color: rgb(0,0,0,0.7);
+opacity: 1;
+position:absolute;
+top:0;
+display:flex;
+justify-content: center;
+align-items: center;
+display: none;
+
+}
+
+.insidepopup {
+  width:500px;
+  height: 300px;
+  background-color: white;
+  opacity:0.9;
+  border-radius: 4px;
+  text-align: center;
+  padding:20px;
+  position: relative;
+}
+
+
+.insidepopup p {
+
+  color:black;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size:42px;
+  color:black;
+  transform: rotate(45deg);
+  cursor:pointer;
+
+
+}
+
+.button {
+   
+  padding-top:30px;
+  font-size: 26px;
+  color:black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px
+}
+
+
+.button:hover {
+
+  opacity: 1;
+  
+}
+
+
+
+
+
+
+
+
+
+
